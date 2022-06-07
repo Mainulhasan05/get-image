@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Image</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="index.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header alert alert-info text-center card">
+        <h1>Get Student Image</h1>
+    </div>
+    <br>
+    <div class="inputid text-center container">
+        <input id="inputid" placeholder="Enter student id" class="form-control" type="text">
+        <button onclick="loadImg()" class="btn btn-success p-2 my-3">Get Image</button>
+    </div>
+    <br>
+    <div class="viewimage text-center">
+        <img id="image" src="https://portal.ewubd.edu/Documents/StudentProfile/2019-2-60-038.jpg" class="rounded mx-auto d-block" alt="...">
+    </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
